@@ -3,7 +3,7 @@ export interface FoodItem {
     itemName?: string;
     itemDescription?: string;
     isVeg?: boolean;
-    price?: number;
+    price: number;
     restaurantId?: number;
     quantity: number;
 }
